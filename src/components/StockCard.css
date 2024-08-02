@@ -1,0 +1,48 @@
+.stock-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stock-card .price {
+  font-weight: bold;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.stock-card .price.top {
+  color: #00C853;
+}
+
+.stock-card .price.bottom {
+  color: #F44336;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+  color: #091827;
+  font-family: 'DIN Pro', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.stock-card .symbol {
+  color: #7E868E;
+  font-family: 'DIN Pro', sans-serif;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
